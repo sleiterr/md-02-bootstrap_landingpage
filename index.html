@@ -75,6 +75,13 @@
               kort og skarp value proposition . Boostrap giver dig et responsivt
               fundament - uden build tools
             </p>
+
+            <div class="d-flex gap-2 mt-3">
+              <a href="#features" class="btn btn-primary btn-lg">Se features</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg"
+                >Kontakt</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -82,11 +89,100 @@
     <!-- ================================================== -->
 
     <!-- ================ | FEATURES | ================ -->
+    <main>
+      <section id="features" class="py-5">
+        <div class="container">
+          <div class="text-center mb-4">
+            <h2 class="fw-bold">Features</h2>
+            <p class="text-body-secondary mb-0">Tre hurtige fordele.</p>
+          </div>
 
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="/public/assets/img/nat-5.png"
+                  alt="Hurtig opsætning"
+                  height="180"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="h5 card-title">Hurtig opsætning</h3>
+                  <p class="card-text">Kør på få minutter med klar struktur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="/public/assets/img/nat-6.png"
+                  alt="Hurtig opsætning"
+                  height="180"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="h5 card-title">Hurtig opsætning</h3>
+                  <p class="card-text">Kør på få minutter med klar struktur</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 shadow-sm">
+                <img
+                  src="/public/assets/img/nat-7.png"
+                  alt="Hurtig opsætning"
+                  height="180"
+                  class="card-img-top"
+                />
+                <div class="card-body">
+                  <h3 class="h5 card-title">Hurtig opsætning</h3>
+                  <p class="card-text">Kør på få minutter med klar struktur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- ================================================== -->
 
     <!-- ================ | KONTAKT | ================ -->
-
+    <section id="contact" class="py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row gy-4 align-items-start">
+          <div class="col-12 col-lg-7">
+            <h3 class="fw-bold mb-3">Kontakt</h3>
+            <form action="#" class="row g-3" method="post" novalidate>
+              <div class="col-md-6">
+                <label for="name" class="form-label">Navn</label>
+                <input id="name" type="text" class="form-control" required />
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="email" class="form-control" />
+              </div>
+              <div class="col-12">
+                <label for="subject" class="form-label">Emne</label>
+                <input id="subject" type="text" class="form-control" />
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Besked</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  style="resize: none"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-secondary">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ================================================== -->
 
     <!-- ================ | FOOTER | ================ -->
